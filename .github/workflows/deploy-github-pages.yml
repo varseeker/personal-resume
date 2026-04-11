@@ -1,7 +1,10 @@
 # Build and deploy the Vite app to GitHub Pages.
 # Repository: https://github.com/varseeker/personal-resume
 # Live site: https://varseeker.github.io/personal-resume/
-# After the first successful run: Repo → Settings → Pages → Source: GitHub Actions
+#
+# IMPORTANT — Settings → Pages → Build and deployment → Source MUST be "GitHub Actions".
+# If Source is "Deploy from a branch", GitHub serves repo-root index.html (dev template with
+# /src/main.jsx) → blank white page. Disable branch deploy; use only this workflow.
 
 name: Deploy to GitHub Pages
 
