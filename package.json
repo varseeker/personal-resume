@@ -1,6 +1,11 @@
 {
-  "name": "persona3",
+  "name": "personal-resume",
   "private": true,
+  "homepage": "https://varseeker.github.io/personal-resume/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/varseeker/personal-resume.git"
+  },
   "version": "0.0.0",
   "type": "module",
   "scripts": {
