@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://varseeker.github.io/personal-resume/sitemap.xml

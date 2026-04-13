@@ -35,19 +35,21 @@ function MenuScreen() {
 }
 
 const PAGE_TITLES = {
-  '/': 'Ibad Ahsan | Software Engineer',
-  '/about': 'About | Muhammad Ibadurrahman Al-ahsan',
-  '/resume': 'Resume | Muhammad Ibadurrahman Al-ahsan',
-  '/socials': 'Socials | Muhammad Ibadurrahman Al-ahsan',
-  '/github': 'GitHub | varseeker',
-  '/sideproj': 'Side Projects | Muhammad Ibadurrahman Al-ahsan',
+  '/': 'Ibad Ahsan | Muhammad Ibadurrahman Al-ahsan — Software Engineer · Portfolio',
+  '/about': 'About | Muhammad Ibadurrahman Al-ahsan (Ibad Ahsan)',
+  '/resume': 'Resume Ahsan | Muhammad Ibadurrahman Al-ahsan — CV & Experience',
+  '/socials': 'Socials | Ibad Ahsan — Muhammad Ibadurrahman Al-ahsan',
+  '/github': 'GitHub | varseeker (Ibad Ahsan)',
+  '/sideproj': 'Side Projects | Portofolio Ahsan — Muhammad Ibadurrahman Al-ahsan',
 }
 
 function AnimatedRoutes() {
   const location = useLocation()
 
   useEffect(() => {
-    document.title = PAGE_TITLES[location.pathname] || 'Ibad Ahsan | Portfolio'
+    document.title =
+      PAGE_TITLES[location.pathname] ||
+      'Muhammad Ibadurrahman Al-ahsan | Ibad Ahsan — Portfolio & Resume'
   }, [location.pathname])
 
   return (
